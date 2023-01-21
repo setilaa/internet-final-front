@@ -1,0 +1,17 @@
+.container {
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   overflow: hidden;
+}
+
+.background {
+   width: 50%;
+   height: 80%;
+   background-image: url("./404.jpg");
+   background-size: contain;
+   background-position: center;
+   background-repeat: no-repeat;
+}

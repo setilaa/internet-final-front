@@ -1,0 +1,40 @@
+.container {
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.welcomeContainer {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.image {
+   width: 30%;
+   height: auto;
+   margin-left: 2rem;
+}
+
+.buttons {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.buttons a {
+   margin: 0 0.5rem;
+   padding: 0.8rem 1.8rem;
+   border-radius: 6px;
+   font-size: 1rem;
+   font-weight: 700;
+   color: #fff;
+   background-color: #0062d1;
+   transition: all 0.2s ease-out;
+}
+
+.buttons a:hover {
+   background-color: #007cff;
+}
